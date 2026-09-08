@@ -1,5 +1,14 @@
-name: astrbot_plugin_ccb_super # 这是你的插件的唯一识别名。
-desc: CCB增强版，查看仓库以了解新增内容。 # 插件简短描述
-version: v0.1.0 # 插件版本号。格式：v1.1.4 或 v5.1.4
-author: Bamboorat0908 # 作者
+name: astrbot_plugin_ccb_super
+display_name: CCB Super
+short_desc: 群友赛博ccb娱乐插件增强版，含养胃/暴击/绝顶/连击/成就系统
+desc: |-
+  基于灵煞/ccb 改进的 AstrBot 群娱乐插件增强版。
+
+  支持绝顶冷却、连击演出、暴击翻倍、养胃限流、挣脱机制、白名单、
+  成就系统（7个成就），以及次数/注入量/绝顶/max 多维排行榜、
+  本群统计报告与跨群全局统计报告（图片）、今日日报（含海王/小南梁）等功能。
+
+  数据长期化存储于 data 目录（data/ccb.json），可配置完整日志（data/ccb_log.json）。
+version: 0.1.0
+author: Bamboorat0908
 repo: https://github.com/Bamboorat0908/astrbot_plugin_ccb_super
