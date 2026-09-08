@@ -1,4 +1,4 @@
-# astrbot_plugin_ccb_plus
+# astrbot_plugin_ccb_super
 
 > CCB 增强版 —— 基于 [灵煞 / ccb](https://github.com/Koikokokokoro/astrbot_plugin_ccb) 改进的 AstrBot 群娱乐插件
 >
@@ -81,14 +81,14 @@
 ### 方式一：AstrBot 插件市场
 
 1. 打开 AstrBot 管理面板 → 插件管理
-2. 搜索 `astrbot_plugin_ccb_plus` 并安装
+2. 搜索 `astrbot_plugin_ccb_super` 并安装
 3. 重载插件，在配置页调整参数后即可使用
 
 ### 方式二：手动安装
 
 ```bash
 cd <AstrBot>/data/plugins
-git clone https://github.com/Bamboorat0908/astrbot_plugin_ccb_plus.git
+git clone https://github.com/Bamboorat0908/astrbot_plugin_ccb_super.git
 ```
 
 本插件无额外 Python 依赖，安装后重载即可开箱即用。
