@@ -1,0 +1,38 @@
+{
+  "yw_ban_duration": {
+    "description": "养胃时长（秒）",
+    "type": "int",
+    "default": 3600,
+    "hint": "被触发限流后禁用多长时间。"
+  },
+  "yw_reset_timeout": {
+    "description": "连续ccb计数重置时间（秒）",
+    "type": "int",
+    "default": 300,
+    "hint": "超过此时间未ccb，连续计数重置为0。"
+  },
+  "white_list": {
+    "description": "不能进行ccb的id列表",
+    "type": "list",
+    "default": [],
+    "hint": "当目标在此列表中时，不能对其ccb。"
+  },
+  "self_ccb": {
+    "description": "是否允许0721",
+    "type": "bool",
+    "default": false,
+    "hint": "为true时当ccb指令未指定对象时进行0721。"
+  },
+  "crit_prob": {
+    "description": "暴击概率",
+    "type": "float",
+    "default": 0.2,
+    "hint": "ccb时暴击的概率。"
+  },
+  "is_log": {
+    "description": "完整日志记录",
+    "type": "bool",
+    "default": "false",
+    "hint": "是否独立保留每一条ccb记录，包括双方与注入量。"
+  }
+}
